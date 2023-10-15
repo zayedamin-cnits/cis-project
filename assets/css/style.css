@@ -7,3 +7,221 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* nav-section-start */
+.navbar {
+  background-color: rgb(212, 0, 0) !important;
+}
+.nav-item .nav-link {
+  color: #fff !important;
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+.nav-item .nav-link:hover {
+  color: #b9b7b7 !important;
+}
+.dropdown-menu {
+  background-color: rgb(212, 0, 0) !important;
+  border: 1px solid #fff !important ;
+}
+.dropdown-item {
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 400 !important;
+  letter-spacing: 1px;
+  margin-top: 6px;
+}
+.dropdown-item:hover {
+  background-color: rgb(175, 1, 1) !important;
+}
+@media screen and (max-width: 500px) {
+  .dropdown-menu {
+    background-color: rgb(212, 0, 0) !important;
+    border: none !important ;
+  }
+}
+/* nav-section-end */
+
+/* hero- section-start */
+/* hero- section-end */
+
+/* about-section-start */
+#about-us {
+  background-color: #cf2e2e;
+  color: #fff;
+}
+.about {
+  padding: 60px 0px 50px 0px;
+  margin-left: 10px;
+}
+.about a {
+  width: 100px;
+  box-shadow: 0px 8px 10px 0px
+    rgba(198.75, 3.456521739130437, 3.456521739130437, 0.5);
+  background-color: red;
+  font-size: 12px;
+}
+.about-video {
+  padding: 75px 0px 50px 0px;
+  /* margin-left: 10px; */
+}
+.about-video iframe {
+  width: 98%;
+  height: 450px;
+  border: 1px solid black;
+  box-shadow: 0px 8px 10px 0px rgba(95, 92, 92, 0.5);
+}
+.about-video a {
+  width: 100px;
+  box-shadow: 0px 8px 10px 0px
+    rgba(198.75, 3.456521739130437, 3.456521739130437, 0.5);
+  background-color: red;
+  font-size: 12px;
+}
+/* about-section-end */
+
+/* vision-section-start */
+#vision {
+  padding: 50px 0px;
+}
+.vision-header h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+.vision-text {
+  margin-top: 110px;
+}
+.vision-text ul {
+  font-size: 18px;
+}
+
+.vision-cis-img img {
+  width: 98%;
+  float: right;
+  margin-top: 20px;
+}
+/* vision-section-end */
+/* mission-section-start  */
+
+.mission-header h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+.mission-safar-img {
+  margin-top: 50px;
+}
+.mission-safar-img img {
+  width: 100%;
+}
+.mission-text p {
+  margin-top: 110px;
+}
+@media screen and (max-width: 500px) {
+  .mission-text p {
+    margin-top: 50px !important;
+  }
+}
+/* mission-section-end */
+
+/* activities-section-start */
+#activities {
+  padding: 40px 0px;
+}
+.activities-header h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+/* activities-section-end */
+
+/* testimonial */
+
+/* .activities-header h4 {
+  font-family: var(--primary-font);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.1em;
+  color: var(--primary-color);
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+} */
+
+/* .activities-header h1 {
+  font-family: var(--header-font);
+  font-size: 2.5em;
+  color: var(--black);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+} */
+
+.content-area {
+  background: var(--white);
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 6px;
+  margin: 10px;
+}
+.content {
+  padding: 20px;
+}
+
+.img-area p {
+  margin-bottom: 0;
+  text-align: center;
+  color: var(--black);
+  font-family: var(--primary-font);
+  background-color: #eff6ff;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.img-area img {
+  width: 100% !important;
+  height: 200px;
+  display: block;
+  margin: auto;
+
+  object-fit: cover;
+}
+
+.img-area h4 {
+  text-align: center;
+  font-size: 1.3em;
+  color: var(--black);
+  font-family: var(--header-font);
+  margin-top: 10px;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.owl-dot {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: rgb(180, 178, 178) !important;
+  display: inline-block;
+  margin: 0 5px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+
+.owl-dot.active {
+  background-color: var(--navy-blue) !important;
+}
+
+@media screen and (max-width: 990px) {
+  .testimonial-header h1 {
+    font-size: 2em;
+  }
+}
+
+/* testimonial */
