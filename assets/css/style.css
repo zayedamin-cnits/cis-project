@@ -389,3 +389,29 @@ text-align: center;
 }
 
 /* feedback-section-end */
+/* partners-section-start */
+#partners{
+  padding: 50px 0px;
+}
+.partner-header h1{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-shadow: 0px 8px 10px rgba(0, 0, 0, 0.3);
+}
+.pantner-info{
+  width: 100%;
+
+}
+.pantner-info img{
+  width: 100%;
+  object-fit: cover;
+  
+
+}
+/* partners-section-end */
+/* photo-gallery-section-start */
+#photo-gallery{
+  padding: 50px 0px;
+}
+/* photo-gallery-section-end */
