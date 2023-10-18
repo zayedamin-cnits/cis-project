@@ -478,4 +478,137 @@ margin-left: 20px;
   border-radius: 5px;
   background-color: #fff;
 }
+.links a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.links a:hover{
+  color: black;
+}
+.latest-header h1{
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+.updeat-img img{
+  width: 40%;
+}
+.updeat{
+  display: flex;
+}
+.updeat-text {
+  margin-left: -95px !important;
+}
+.updeat-text a{
+ text-decoration: none;
+ color: #fff;
+ font-size: 12px;
+}
+.updeat-text a:hover{
+  color: black;
+}
+.contact-header h1{
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+.phone {
+  display: flex;
+  margin: auto;
+  width: 40%;
+  margin-top: 20px;
+}
+.call i{
+  margin-right: 10px;
+}
+.namber a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.gmail{
+  display: flex;
+  margin: auto;
+  width: 40%;
+  margin-top: 20px;
+
+}
+.mail i{
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.cis-mail a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.area{
+  display: flex;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+
+}
+.area-icon i{
+  margin-right: 10px;
+  margin-left: 5px;
+  margin-top: 30px;
+}
+.area-name a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.subscribe h1{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.for{
+ width: 70%;
+ margin: auto;
+ margin-left: 50px;
+}
+.for p{
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.login input{
+  width: 70%; 
+padding: 8px 10px;
+border-bottom-left-radius: 20px;
+border-top-left-radius: 20px;
+border: none;
+margin-left: 50px;
+
+}
+.login label{
+ background-color: #790303;
+padding: 9px 15px;
+margin-left: -3px;
+border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+.copyright{
+  padding: 20px 0px ;
+  width: 100%;
+}
+.copy p{
+  text-align: center;
+}
   /* fotter-section-end */
+  /* copyright-section-start  */
+  #copyright{
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+  }
+ /* copyright-section-end */
