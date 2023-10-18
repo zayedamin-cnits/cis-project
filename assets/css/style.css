@@ -414,4 +414,68 @@ text-align: center;
 #photo-gallery{
   padding: 50px 0px;
 }
+.gallary-img{
+  width: 100%;
+  margin-top: 25px;
+}
+.gallary-img img{
+  width: 100%;
+}
+.gallary-button {
+  width: 120px;
+ margin: auto;
+ margin-top: 25px;
+ 
+}
+.gallary-button a {
+ background-color: red;
+width: 120px;
+ margin: auto;
+ padding: 10px 20px;
+ text-decoration: none;
+ color: #fff;
+ font-size: 12px;
+ border-radius: 3px;
+
+}
+.gallary-button a:hover{
+  background-color: black;
+  color: #fff;
+}
 /* photo-gallery-section-end */
+/* fotter-section-start */
+#fotter{
+padding: 100px 0px;
+background-color: rgb(160, 7, 7);
+}
+
+.society-logo img{
+  width: 100%;
+}
+.society p{
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.facebook{
+margin-left: 20px;
+}
+.facebook i{
+  font-size: 20px;
+ padding: 10px;
+ border-radius: 50%;
+ background-color: #fff;
+}
+.useful-header h1{
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+.underline{
+  width: 50%;
+  margin: auto;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+  /* fotter-section-end */
