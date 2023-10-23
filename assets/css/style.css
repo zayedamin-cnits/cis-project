@@ -703,6 +703,93 @@
 
 /* copyright-section-end */
 
+/* about-section-start */
+/* about-hero-section-start*/
+.about-hero {
+  background: url(../img/hero-img/ny.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;  
+}
+
+/* about-hero-section-end*/
+/* about-us-section-start */
+#nav-about-us{
+padding: 10px 0px 50px 0px;
+background-color: #fff;
+}
+.nav-about-header h1{
+  font-size: 25px;
+  margin-top: 0;
+  color: #fff;background-color: rgb(209, 7, 7);
+  padding: 10px;
+  width: 350px;
+}
+.nav-about-header p{
+  color: black;
+  font-size: 15px;
+}
+/* about-us-section-end */
+/* about-section-end */
+
+/* history-section-start */
+/* history-hero-section-start*/
+.history-hero {
+  background: url(../img/hero-img/ny.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  
+}
+/* history-us-section-start */
+#nav-our-history{
+  padding: 10px 0px 80px 0px;
+  background-color: #fff;
+  }
+  .nav-history-header h1{
+    font-size: 25px;
+    margin-top: 0;
+    color: #fff;background-color: rgb(209, 7, 7);
+    padding: 10px;
+    width: 350px;
+  }
+  .nav-history-header p{
+    color: black;
+    font-size: 15px;
+  }
+  /* history-us-section-end */
+
+/* history-hero-section-end*/
+
+
+
+
 
 
 
@@ -711,8 +798,6 @@
   padding: 100px 0px;
   background-color: rgb(37, 37, 37);
 }
-
-
 
 .partner-society p {
   text-align: center;
