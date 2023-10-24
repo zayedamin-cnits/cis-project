@@ -722,26 +722,30 @@
 .about-hero h1 {
   font-size: 50px;
   font-weight: 800;
-  color: #fff;  
+  color: #fff;
 }
 
 /* about-hero-section-end*/
 /* about-us-section-start */
-#nav-about-us{
-padding: 10px 0px 50px 0px;
-background-color: #fff;
+#nav-about-us {
+  padding: 10px 0px 50px 0px;
+  background-color: #fff;
 }
-.nav-about-header h1{
+
+.nav-about-header h1 {
   font-size: 25px;
   margin-top: 0;
-  color: #fff;background-color: rgb(209, 7, 7);
+  color: #fff;
+  background-color: rgb(209, 7, 7);
   padding: 10px;
   width: 350px;
 }
-.nav-about-header p{
+
+.nav-about-header p {
   color: black;
   font-size: 15px;
 }
+
 /* about-us-section-end */
 /* about-section-end */
 
@@ -765,31 +769,36 @@ background-color: #fff;
   font-size: 50px;
   font-weight: 800;
   color: #fff;
-  
+
 }
+
 /* history-us-section-start */
-#nav-our-history{
+#nav-our-history {
   padding: 10px 0px 80px 0px;
   background-color: #fff;
-  }
-  .nav-history-header h1{
-    font-size: 25px;
-    margin-top: 0;
-    color: #fff;background-color: rgb(209, 7, 7);
-    padding: 10px;
-    width: 350px;
-  }
-  .nav-history-header p{
-    color: black;
-    font-size: 15px;
-  }
-  /* history-us-section-end */
+}
+
+.nav-history-header h1 {
+  font-size: 25px;
+  margin-top: 0;
+  color: #fff;
+  background-color: rgb(209, 7, 7);
+  padding: 10px;
+  width: 350px;
+}
+
+.nav-history-header p {
+  color: black;
+  font-size: 15px;
+}
+
+/* history-us-section-end */
 
 /* history-hero-section-end*/
 
 /* mission&vision-section-start */
 /* mission&vision-hero-start */
-.mission-vision-hero{
+.mission-vision-hero {
   background: url(../img/hero-img/ny.jpg);
   width: 100%;
   height: 300px;
@@ -807,21 +816,23 @@ background-color: #fff;
   font-size: 50px;
   font-weight: 800;
   color: #fff;
-  
+
 }
+
 @media screen and (max-width:470px) {
   .mission-vision-hero h1 {
     font-size: 35px;
     font-weight: 700;
     color: #fff;
-    
+
   }
 }
+
 /* mission&vision-hero-end */
 
 /* mission&vision-text-section-start */
-/* mission&vision-text-section-end */
-#mission-vision{
+
+#mission-vision {
   background: url(../img/hero-img/la\ \(1\).jpg);
   width: 100%;
   /* height: 700px; */
@@ -830,35 +841,105 @@ background-color: #fff;
   background-size: cover;
   padding: 150px 0px;
 }
-.mission{
+
+.mission {
   padding: 0px 60px 0px 0px;
 }
-.mission h2{
-color: #fff;
+
+.mission h2 {
+  color: #fff;
 }
-.mission p{
+
+.mission p {
   color: #fff;
   font-size: 17px;
   text-align: justify;
-  }
-  .vission{
-    padding: 0px 0px 0px 80px;
- 
-  }
-  .vission h2{
-    color: #fff;
-    
-  }
-  .vission ul li{
-   color: #fff;
-   float: right;
-   text-align: justify;
-   font-size: 17px;
-   
-  }
+}
+
+.vission {
+  padding: 0px 0px 0px 80px;
+
+}
+
+.vission h2 {
+  color: #fff;
+
+}
+
+.vission ul li {
+  color: #fff;
+  float: right;
+  text-align: justify;
+  font-size: 17px;
+
+}
+
+/* mission&vision-text-section-end */
 /* mission&vision-section-end */
 
+/* governing-board-section-start */
+/* governing-board-hero-section-start  */
+.governing-board-hero {
+  background: url(../img/hero-img/ny.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.governing-board-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+}
+@media screen and (max-width:470px) {
+  .governing-board-hero h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+  }
+}
+/* governing-board-hero-section-end */
+/* governing-board-card-section-start */
+#governing-board-card{
+  padding: 0px 0px 100px 0px;
+}
+.governing-board-info-card{
+padding: 40px 20px;
+/* background-color: antiquewhite; */
+border-radius: 10px;
+box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
+}
+.governing-board-card-img img{
+  width: 100%; 
+}
+.governing-board-card-text h5  {
+  text-align: center;
+}
+.governing-board-card-text h5 a {
+ text-decoration: none;
+ color: black;
+}
+.governing-board-card-text p {
+  text-align: center;
+}
+
+.governing-social{
+  background-color: #b9b7b7;
+  padding: 9px 6px 6px 6px;
+  border-radius: 50%;
+}
+.governing-social i{
+  font-size: 20px;
+}
+/* governing-board-card-section-end */
+/* governing-board-section-end */
 
 
 
