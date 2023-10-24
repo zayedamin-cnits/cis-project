@@ -787,7 +787,76 @@ background-color: #fff;
 
 /* history-hero-section-end*/
 
+/* mission&vision-section-start */
+/* mission&vision-hero-start */
+.mission-vision-hero{
+  background: url(../img/hero-img/ny.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.mission-vision-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  
+}
+@media screen and (max-width:470px) {
+  .mission-vision-hero h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+    
+  }
+}
+/* mission&vision-hero-end */
+
+/* mission&vision-text-section-start */
+/* mission&vision-text-section-end */
+#mission-vision{
+  background: url(../img/hero-img/la\ \(1\).jpg);
+  width: 100%;
+  /* height: 700px; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0px;
+}
+.mission{
+  padding: 0px 60px 0px 0px;
+}
+.mission h2{
+color: #fff;
+}
+.mission p{
+  color: #fff;
+  font-size: 17px;
+  text-align: justify;
+  }
+  .vission{
+    padding: 0px 0px 0px 80px;
+ 
+  }
+  .vission h2{
+    color: #fff;
+    
+  }
+  .vission ul li{
+   color: #fff;
+   float: right;
+   text-align: justify;
+   font-size: 17px;
+   
+  }
+/* mission&vision-section-end */
 
 
 
