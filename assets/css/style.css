@@ -947,8 +947,55 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
 /* governing-board-card-section-end */
 /* governing-board-section-end */
 
+/* partners-section-start */
+#nav-main-partner{
+  padding: 40px 0px 80px 0px;
+}
+.international{
+  padding: 50px 0px;
+  border: 3px solid red;
+}
+.international-logo{
+  /* padding: 10px; */
+  background-color: rgb(199, 2, 2);
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+.international-logo i{
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+ 
+}
+.international-text h3{
+  text-align: center;
+}
 
 
+
+.national{
+  padding: 50px 0px;
+  border: 3px solid red;
+}
+.national-logo{
+  padding: 20px;
+  background-color: red;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: auto;
+  border: 25px solid green;
+}
+.national-logo i{
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+ 
+}
+.national-text h3{
+  text-align: center;
+}
 /* partner-fotter-start */
 #partner-fotter {
   padding: 100px 0px;
@@ -995,7 +1042,7 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
   font-size: 14px;
 }
 
-.links a:hover {
+.partner-links a:hover {
   color: black;
 }
 
@@ -1110,3 +1157,4 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
 }
 
 /* partner-fotter-end */
+/* partners-section-end */
