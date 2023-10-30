@@ -1459,3 +1459,56 @@ padding-left: 10px;
 }
 
 /* project-archived-for-section-end  */
+ /* current-projects-section-start  */
+ #nav-current-projects{
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+.current-projects{
+  padding: 80px;
+  background-color: #fff;
+}
+.current-projects-header h3{
+  font-weight: 300;
+  font-size: 30px;
+}
+
+@media screen and (max-width:500px) {
+  .current-projects{
+    padding: 10px;
+    background-color: #fff;
+  }
+}
+ /* current-projects-section-end  */
+
+ /* situation-report-section-start */
+ #situation-report-hero {
+  background: url(../img/hero-img/ny.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.situation-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+
+}
+
+@media screen and (max-width:470px) {
+  .situation-hero  h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #fff;
+
+  }
+}
+ /* situation-report-section-end */
