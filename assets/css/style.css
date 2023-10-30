@@ -1353,3 +1353,109 @@ padding-left: 10px;
 }
 
 /* activities-section-end */
+
+/* project-archived-for-section-start */
+#nav-project-archived{
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+.project-archived{
+  padding: 100px;
+  background-color: #fff;
+}
+.project-archived-header h3{
+  font-weight: 400;
+}
+.cleft-lip-img img{
+  width: 100%;
+  padding: 10px;
+}
+.cleft-lip-text{
+  margin-top: 25px;
+  padding: 10px;
+}
+.cleft-lip-text h4 a{
+  font-size: 21px;
+  color: black;
+}
+.cleft-lip-text p{
+  font-size: 15px;
+  color: #7c7b7b;
+  text-align: justify;
+}
+.see-more a{
+  padding: 10px 25px;
+  background-color: rgb(182, 6, 6);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+
+
+
+.research-program-img img{
+  width: 100%;
+  padding: 10px;
+}
+.research-program-text{
+  margin-top: 25px;
+  padding: 10px;
+}
+.research-program-text h4 a{
+  font-size: 21px;
+  color: black;
+}
+.research-program-text p{
+  font-size: 15px;
+  color: #7c7b7b;
+  text-align: justify;
+}
+.see-more a{
+  padding: 10px 25px;
+  background-color: rgb(182, 6, 6);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+
+.arsenic-patient-img img{
+  width: 100%;
+  padding: 10px;
+}
+.research-program-text{
+  margin-top: 25px;
+  padding: 10px;
+}
+.arsenic-patient-text h4 a{
+  font-size: 21px;
+  color: black;
+}
+.arsenic-patient-text p{
+  font-size: 15px;
+  color: #7c7b7b;
+  text-align: justify;
+}
+.see-more a{
+  padding: 10px 25px;
+  background-color: rgb(182, 6, 6);
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.see-more a:hover{
+  background-color: #7c7b7b;
+  color: #fff;
+}
+@media screen and (max-width:500px) {
+  .project-archived{
+    padding: 20px 10px;
+    background-color: #fff;
+  }
+}
+
+/* project-archived-for-section-end  */
