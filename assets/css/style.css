@@ -746,6 +746,7 @@
   background-color: rgb(209, 7, 7);
   padding: 10px;
   width: 350px;
+
 }
 
 .nav-about-header p {
@@ -1162,7 +1163,7 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
 /* partners-section-end */
 /* we-work-for-section-start  */
 #we-work-for{
-  padding: 60px 0px;
+  padding: 60px 0px 120px 0px;
   background-color: #e2dbdb;
 }
 .work-for{
@@ -1185,3 +1186,53 @@ padding-left: 10px;
   }
 }
 /* we-work-for-section-end */
+
+
+/* working-area-section-start */
+/*working-area-hero-section-start*/
+.working-hero {
+  background: url(../img/hero-img/ny.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.working-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* working-area-hero-section-end*/
+#nav-working-area {
+  padding: 10px 0px 80px 0px;
+  background-color: #fff;
+}
+
+.nav-working-header h1 {
+  font-size: 25px;
+  margin-top: 0;
+  color: #fff;
+  background-color: rgb(209, 7, 7);
+  padding: 10px;
+  width: 350px;
+}
+.nav-working-header p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.nav-working-map img{
+  width: 100%;
+}
+.nav-working-text p{
+  font-size: 18px;
+  text-align: justify;
+}
+/* working-area-section-end */
