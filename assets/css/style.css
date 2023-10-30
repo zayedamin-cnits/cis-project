@@ -1236,3 +1236,120 @@ padding-left: 10px;
   text-align: justify;
 }
 /* working-area-section-end */
+/* our-approach-section-start */
+#nav-our-approach{
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+.nav-approach{
+  padding: 100px;
+  background-color: #fff;
+}
+.nav-approach-header h3{
+  font-weight: 700;
+  font-size: 18px;
+}
+.nav-approach-text p{
+font-size: 15px;
+text-align: justify;
+margin-top: 20px;
+padding-left: 10px;
+}
+.disaster-response-header h3{
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.disaster-response-text ul{
+  padding: 0px 50px 0px 80px;
+ font-size: 15px;
+ margin-top: 20px;
+}
+.drr-header h3{
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.drr-text ul{
+  padding: 0px 50px 0px 80px;
+ font-size: 15px;
+ margin-top: 20px;
+}
+.lnnovation-header h3{
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.lnnovation-text ul{
+  padding: 0px 50px 0px 80px;
+  font-size: 15px;
+  margin-top: 20px;
+ }
+ .lnnovation-text ul span{
+ font-weight: 600;
+ }
+ .research-header h3{
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.research-text ul{
+  padding: 0px 50px 0px 80px;
+  font-size: 15px;
+  margin-top: 20px;
+ }
+ .dissemination-header h3{
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.dissemination-text ul{
+  padding: 0px 50px 0px 80px;
+  font-size: 15px;
+  margin-top: 20px;
+ }
+@media screen and (max-width:500px) {
+  .nav-approach{
+    padding: 10px;
+    background-color: #fff;
+  }
+}
+/* our-approach-section-end */
+
+/* activities-section-start  */
+/* activities-hero-section-start */
+
+.active-hero {
+  background: url(../img/hero-img/ny.jpg);
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* activities-hero-section-end  */
+#nav-activities{
+  padding: 0px 0px 100px 0px;
+}
+
+.activities-img{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.activities-img img{
+  width: 100%;
+}
+
+/* activities-section-end */
