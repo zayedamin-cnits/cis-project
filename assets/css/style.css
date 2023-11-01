@@ -1671,3 +1671,54 @@
 }
 
 /* situation-report-section-end */
+/* press-release-section-start */
+#nav-press-release{
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+
+.press-release {
+  padding: 80px;
+  background-color: #fff;
+}
+
+.press-release-header h3 {
+  font-weight: 400;
+}
+.press-release-notice-content img{
+width: 100%;
+}
+.press-release-notice-marcy img{
+width: 90%;
+}
+.press-release-notice-dcht img{
+  width: 45%;
+  display: block; 
+  margin: auto;
+  
+}
+.press-release-notice-cis img {
+  width: 45%;
+  display: block; 
+  margin: auto;
+}
+@media screen and (max-width:500px) {
+  .press-release {
+    padding: 10px;
+    background-color: #fff;
+  }
+  .press-release-notice-dcht img{
+    width: 35%;
+    display: block; 
+    margin: auto;
+    margin-top: 10px;
+    
+  }
+  .press-release-notice-cis img {
+    width: 35%;
+    display: block; 
+    margin: auto;
+    margin-top: 10px;
+  }
+}
+/* press-release-section-end */
