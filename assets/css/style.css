@@ -52,6 +52,18 @@
 /* nav-section-end */
 
 /* hero- section-start */
+#hero img {
+  height: 80vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width:550px) {
+  #hero img {
+    height: 30vh;
+    object-fit: cover;
+  }
+}
+
 /* hero- section-end */
 
 /* about-section-start */
@@ -97,13 +109,15 @@
 #vision {
   padding: 50px 0px;
 }
-.section-header-underline{
+
+.section-header-underline {
   padding: 2px;
   width: 110px;
   margin: auto;
   background-color: red;
   border-radius: 20px;
 }
+
 .vision-header h1 {
   text-align: center;
   font-size: 32px;
@@ -713,9 +727,9 @@
 /* about-section-start */
 /* about-hero-section-start*/
 .about-hero {
-  background: url(../img/hero-img/ny.jpg);
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
   width: 100%;
-  height: 300px;
+  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -724,12 +738,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.about-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .about-hero h1 {
   font-size: 50px;
   font-weight: 800;
   color: #fff;
+  position: relative;
 }
 
 /* about-hero-section-end*/
@@ -745,7 +771,7 @@
   color: #fff;
   background-color: rgb(209, 7, 7);
   padding: 10px;
-  width: 350px;
+  width: 30%;
 
 }
 
@@ -760,7 +786,7 @@
 /* history-section-start */
 /* history-hero-section-start*/
 .history-hero {
-  background: url(../img/hero-img/ny.jpg);
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -771,13 +797,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.history-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .history-hero h1 {
   font-size: 50px;
   font-weight: 800;
   color: #fff;
-
+  position: relative;
 }
 
 /* history-us-section-start */
@@ -792,7 +829,7 @@
   color: #fff;
   background-color: rgb(209, 7, 7);
   padding: 10px;
-  width: 350px;
+  width: 30%;
 }
 
 .nav-history-header p {
@@ -807,7 +844,7 @@
 /* mission&vision-section-start */
 /* mission&vision-hero-start */
 .mission-vision-hero {
-  background: url(../img/hero-img/ny.jpg);
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -818,13 +855,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.mission-vision-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .mission-vision-hero h1 {
   font-size: 50px;
   font-weight: 800;
   color: #fff;
-
+  position: relative;
 }
 
 @media screen and (max-width:470px) {
@@ -888,7 +936,7 @@
 /* governing-board-section-start */
 /* governing-board-hero-section-start  */
 .governing-board-hero {
-  background: url(../img/hero-img/ny.jpg);
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -899,13 +947,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.governing-board-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .governing-board-hero h1 {
   font-size: 50px;
   font-weight: 800;
   color: #fff;
+  position: relative;
 }
+
 @media screen and (max-width:470px) {
   .governing-board-hero h1 {
     font-size: 35px;
@@ -913,74 +974,87 @@
     color: #fff;
   }
 }
+
 /* governing-board-hero-section-end */
 /* governing-board-card-section-start */
-#governing-board-card{
+#governing-board-card {
   padding: 0px 0px 100px 0px;
 }
-.governing-board-info-card{
-padding: 40px 20px;
-/* background-color: antiquewhite; */
-border-radius: 10px;
-box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
+
+.governing-board-info-card {
+  padding: 40px 20px;
+  /* background-color: antiquewhite; */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.5);
 }
-.governing-board-card-img img{
-  width: 100%; 
+
+.governing-board-card-img img {
+  width: 100%;
 }
-.governing-board-card-text h5  {
+
+.governing-board-card-text h5 {
   text-align: center;
 }
+
 .governing-board-card-text h5 a {
- text-decoration: none;
- color: black;
+  text-decoration: none;
+  color: black;
 }
+
 .governing-board-card-text p {
   text-align: center;
 }
 
-.governing-social{
+.governing-social {
   background-color: #b9b7b7;
   padding: 9px 6px 6px 6px;
   border-radius: 50%;
 }
-.governing-social i{
+
+.governing-social i {
   font-size: 20px;
 }
+
 /* governing-board-card-section-end */
 /* governing-board-section-end */
 
 /* partners-section-start */
-#nav-main-partner{
+#nav-main-partner {
   padding: 40px 0px 80px 0px;
 }
-.international{
+
+.international {
   padding: 50px 0px;
   border: 3px solid red;
 }
-.international-logo{
+
+.international-logo {
   /* padding: 10px; */
   background-color: rgb(199, 2, 2);
   width: 100px;
   border-radius: 50%;
   margin: auto;
 }
-.international-logo i{
+
+.international-logo i {
   font-size: 50px;
   padding: 20px;
   text-align: center;
- 
+
 }
-.international-text h3{
+
+.international-text h3 {
   text-align: center;
 }
 
 
 
-.national{
+.national {
   padding: 50px 0px;
   border: 3px solid red;
 }
-.national-logo{
+
+.national-logo {
   padding: 20px;
   background-color: red;
   width: 50px;
@@ -989,15 +1063,18 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
   margin: auto;
   border: 25px solid green;
 }
-.national-logo i{
+
+.national-logo i {
   font-size: 50px;
   padding: 20px;
   text-align: center;
- 
+
 }
-.national-text h3{
+
+.national-text h3 {
   text-align: center;
 }
+
 /* partner-fotter-start */
 #partner-fotter {
   padding: 100px 0px;
@@ -1010,7 +1087,7 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
   color: red;
 }
 
-.partner-facebook{
+.partner-facebook {
   margin-left: 30px;
   padding-bottom: 20px;
 }
@@ -1162,36 +1239,41 @@ box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.5);
 /* partner-fotter-end */
 /* partners-section-end */
 /* we-work-for-section-start  */
-#we-work-for{
+#we-work-for {
   padding: 60px 0px 120px 0px;
   background-color: #e2dbdb;
 }
-.work-for{
+
+.work-for {
   padding: 100px;
   background-color: #fff;
 }
-.work-for-header h3{
+
+.work-for-header h3 {
   font-weight: 400;
 }
-.work-for-text p{
-font-size: 15px;
-text-align: justify;
-margin-top: 20px;
-padding-left: 10px;
+
+.work-for-text p {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 20px;
+  padding-left: 10px;
 }
+
 @media screen and (max-width:500px) {
-  .work-for{
+  .work-for {
     padding: 10px;
     background-color: #fff;
   }
 }
+
 /* we-work-for-section-end */
 
 
 /* working-area-section-start */
 /*working-area-hero-section-start*/
 .working-hero {
-  background: url(../img/hero-img/ny.jpg);
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -1202,12 +1284,24 @@ padding-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.working-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .working-hero h1 {
   font-size: 50px;
   font-weight: 800;
   color: #fff;
+  position: relative;
 }
 
 /* working-area-hero-section-end*/
@@ -1222,105 +1316,125 @@ padding-left: 10px;
   color: #fff;
   background-color: rgb(209, 7, 7);
   padding: 10px;
-  width: 350px;
+  width: 30%;
 }
+
 .nav-working-header p {
   font-size: 18px;
   margin-top: 30px;
 }
-.nav-working-map img{
+
+.nav-working-map img {
   width: 100%;
 }
-.nav-working-text p{
+
+.nav-working-text p {
   font-size: 18px;
   text-align: justify;
 }
+
 /* working-area-section-end */
 /* our-approach-section-start */
-#nav-our-approach{
+#nav-our-approach {
   padding: 60px 0px 120px 0px;
   background-color: #e2dbdb;
 }
-.nav-approach{
+
+.nav-approach {
   padding: 100px;
   background-color: #fff;
 }
-.nav-approach-header h3{
+
+.nav-approach-header h3 {
   font-weight: 700;
   font-size: 18px;
 }
-.nav-approach-text p{
-font-size: 15px;
-text-align: justify;
-margin-top: 20px;
-padding-left: 10px;
+
+.nav-approach-text p {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 20px;
+  padding-left: 10px;
 }
-.disaster-response-header h3{
+
+.disaster-response-header h3 {
   font-weight: 700;
   font-size: 15px;
   margin-top: 20px;
 }
-.disaster-response-text ul{
+
+.disaster-response-text ul {
   padding: 0px 50px 0px 80px;
- font-size: 15px;
- margin-top: 20px;
+  font-size: 15px;
+  margin-top: 20px;
 }
-.drr-header h3{
+
+.drr-header h3 {
   font-weight: 700;
   font-size: 15px;
   margin-top: 20px;
 }
-.drr-text ul{
+
+.drr-text ul {
   padding: 0px 50px 0px 80px;
- font-size: 15px;
- margin-top: 20px;
+  font-size: 15px;
+  margin-top: 20px;
 }
-.lnnovation-header h3{
+
+.lnnovation-header h3 {
   font-weight: 700;
   font-size: 15px;
   margin-top: 20px;
 }
-.lnnovation-text ul{
+
+.lnnovation-text ul {
   padding: 0px 50px 0px 80px;
   font-size: 15px;
   margin-top: 20px;
- }
- .lnnovation-text ul span{
- font-weight: 600;
- }
- .research-header h3{
+}
+
+.lnnovation-text ul span {
+  font-weight: 600;
+}
+
+.research-header h3 {
   font-weight: 700;
   font-size: 15px;
   margin-top: 20px;
 }
-.research-text ul{
+
+.research-text ul {
   padding: 0px 50px 0px 80px;
   font-size: 15px;
   margin-top: 20px;
- }
- .dissemination-header h3{
+}
+
+.dissemination-header h3 {
   font-weight: 700;
   font-size: 15px;
   margin-top: 20px;
 }
-.dissemination-text ul{
+
+.dissemination-text ul {
   padding: 0px 50px 0px 80px;
   font-size: 15px;
   margin-top: 20px;
- }
+}
+
 @media screen and (max-width:500px) {
-  .nav-approach{
+  .nav-approach {
     padding: 10px;
     background-color: #fff;
   }
 }
+
 /* our-approach-section-end */
 
 /* activities-section-start  */
 /* activities-hero-section-start */
 
 .active-hero {
-  background: url(../img/hero-img/ny.jpg);
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -1331,59 +1445,79 @@ padding-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.active-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .active-hero h1 {
   font-size: 50px;
   font-weight: 800;
   color: #fff;
+  position: relative;
 }
 
 /* activities-hero-section-end  */
-#nav-activities{
+#nav-activities {
   padding: 0px 0px 100px 0px;
 }
 
-.activities-img{
+.activities-img {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-.activities-img img{
+
+.activities-img img {
   width: 100%;
 }
 
 /* activities-section-end */
 
 /* project-archived-for-section-start */
-#nav-project-archived{
+#nav-project-archived {
   padding: 60px 0px 120px 0px;
   background-color: #e2dbdb;
 }
-.project-archived{
+
+.project-archived {
   padding: 100px;
   background-color: #fff;
 }
-.project-archived-header h3{
+
+.project-archived-header h3 {
   font-weight: 400;
 }
-.cleft-lip-img img{
+
+.cleft-lip-img img {
   width: 100%;
   padding: 10px;
 }
-.cleft-lip-text{
+
+.cleft-lip-text {
   margin-top: 25px;
   padding: 10px;
 }
-.cleft-lip-text h4 a{
+
+.cleft-lip-text h4 a {
   font-size: 21px;
   color: black;
 }
-.cleft-lip-text p{
+
+.cleft-lip-text p {
   font-size: 15px;
   color: #7c7b7b;
   text-align: justify;
 }
-.see-more a{
+
+.see-more a {
   padding: 10px 25px;
   background-color: rgb(182, 6, 6);
   text-decoration: none;
@@ -1395,24 +1529,28 @@ padding-left: 10px;
 
 
 
-.research-program-img img{
+.research-program-img img {
   width: 100%;
   padding: 10px;
 }
-.research-program-text{
+
+.research-program-text {
   margin-top: 25px;
   padding: 10px;
 }
-.research-program-text h4 a{
+
+.research-program-text h4 a {
   font-size: 21px;
   color: black;
 }
-.research-program-text p{
+
+.research-program-text p {
   font-size: 15px;
   color: #7c7b7b;
   text-align: justify;
 }
-.see-more a{
+
+.see-more a {
   padding: 10px 25px;
   background-color: rgb(182, 6, 6);
   text-decoration: none;
@@ -1422,24 +1560,28 @@ padding-left: 10px;
 }
 
 
-.arsenic-patient-img img{
+.arsenic-patient-img img {
   width: 100%;
   padding: 10px;
 }
-.research-program-text{
+
+.research-program-text {
   margin-top: 25px;
   padding: 10px;
 }
-.arsenic-patient-text h4 a{
+
+.arsenic-patient-text h4 a {
   font-size: 21px;
   color: black;
 }
-.arsenic-patient-text p{
+
+.arsenic-patient-text p {
   font-size: 15px;
   color: #7c7b7b;
   text-align: justify;
 }
-.see-more a{
+
+.see-more a {
   padding: 10px 25px;
   background-color: rgb(182, 6, 6);
   text-decoration: none;
@@ -1447,43 +1589,48 @@ padding-left: 10px;
   border-radius: 5px;
   margin-top: 30px;
 }
-.see-more a:hover{
+
+.see-more a:hover {
   background-color: #7c7b7b;
   color: #fff;
 }
+
 @media screen and (max-width:500px) {
-  .project-archived{
+  .project-archived {
     padding: 20px 10px;
     background-color: #fff;
   }
 }
 
 /* project-archived-for-section-end  */
- /* current-projects-section-start  */
- #nav-current-projects{
+/* current-projects-section-start  */
+#nav-current-projects {
   padding: 60px 0px 120px 0px;
   background-color: #e2dbdb;
 }
-.current-projects{
+
+.current-projects {
   padding: 80px;
   background-color: #fff;
 }
-.current-projects-header h3{
+
+.current-projects-header h3 {
   font-weight: 300;
   font-size: 30px;
 }
 
 @media screen and (max-width:500px) {
-  .current-projects{
+  .current-projects {
     padding: 10px;
     background-color: #fff;
   }
 }
- /* current-projects-section-end  */
 
- /* situation-report-section-start */
- #situation-report-hero {
-  background: url(../img/hero-img/ny.jpg);
+/* current-projects-section-end  */
+
+/* situation-report-section-start */
+#situation-report-hero {
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
   width: 100%;
   height: 300px;
   background-position: center;
@@ -1494,21 +1641,33 @@ padding-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+#situation-report-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .situation-hero h1 {
   font-size: 50px;
   font-weight: 800;
   color: #fff;
-
+  position: relative;
 }
 
 @media screen and (max-width:470px) {
-  .situation-hero  h1 {
+  .situation-hero h1 {
     font-size: 35px;
     font-weight: 700;
     color: #fff;
 
   }
 }
- /* situation-report-section-end */
+
+/* situation-report-section-end */
