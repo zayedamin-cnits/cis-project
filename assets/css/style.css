@@ -1923,3 +1923,76 @@ width: 90%;
   position: relative;
 }
 /* publication-section-end  */
+
+/* covid-19-leaflet-section-start */
+/* covid-19-leaflet-hero-section-start */
+
+.covid-19-leaflet-hero{
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.covid-19-leaflet-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.covid-19-leaflet-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+/* covid-19-leaflet-hero-section-end  */
+#nav-covid-19-leaflet{
+  padding: 10px 0px 80px 0px;
+}
+.covid-19-leaflet-img img{
+  width: 100%;
+}
+
+
+/* covid-19-leaflet-section-end  */
+/* covid-19-photos-section-start */
+#nav-covid-19-photos {
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+
+.covid-19-photos {
+  padding: 100px;
+  background-color: #fff;
+}
+
+.covid-19-photos-header h3 {
+  font-weight: 400;
+}
+.covid-19-photos-img img{
+  width: 100%;
+}
+
+
+@media screen and (max-width:500px) {
+  .covid-19-photos {
+    padding: 10px 10px 30px 10px;
+    background-color: #fff;
+  }
+}
+/* covid-19-photos-section-end */
