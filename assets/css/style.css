@@ -1996,3 +1996,161 @@ width: 90%;
   }
 }
 /* covid-19-photos-section-end */
+
+/* covid-19-reports-section-start */
+#nav-covid-19-reports {
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+
+.covid-19-reports {
+  padding: 100px;
+  background-color: #fff;
+}
+
+.covid-19-reports-header h3 {
+  font-weight: 400;
+}
+
+@media screen and (max-width:500px) {
+  .covid-19-reports {
+    padding: 10px 10px 30px 10px;
+    background-color: #fff;
+  }
+}
+
+/* covid-19-reports-section-end */
+/* covid-19-case-study-section-start */
+
+#nav-covid-19-case-study {
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+
+.covid-19-case-study {
+  padding: 100px;
+  background-color: #fff;
+}
+
+.covid-19-case-study-header h3 {
+  font-weight: 400;
+}
+
+@media screen and (max-width:500px) {
+  .covid-19-case-study {
+    padding: 10px 10px 30px 10px;
+    background-color: #fff;
+  }
+}
+
+/* covid-19-case-study-section-end */
+/* Events-2-section-start */
+
+#nav-Events-2 {
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+
+.Events-2 {
+  padding: 100px;
+  background-color: #fff;
+}
+
+.Events-2-header h3 {
+  font-weight: 400;
+}
+.Events-2-text{
+  padding: 0px 60px;
+}
+.Events-2-text h2{
+  text-align: center;
+  font-size: 40px;
+ color: #790303;
+ font-weight: 600;
+}
+.Events-2-img img{
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:500px) {
+  .Events-2 {
+    padding: 10px 10px 30px 10px;
+    background-color: #fff;
+  }
+  .Events-2-text h2{
+    text-align: center;
+    font-size: 30px;
+   color: #790303;
+   font-weight: 600;
+  }
+}
+
+/* Events-2-section-end */
+
+/* upcoming-events-section-start */
+/* 
+upcoming-events-hero-section-start  */
+.upcoming-events-hero{
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.upcoming-events-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.upcoming-events-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+/* upcoming-events-hero-section-end */
+#nav-upcoming-events{
+  padding: 0px 0px 80px 0px;
+}
+.upcoming-events-header h2{
+  font-weight: 600;
+  padding: 10px;
+}
+.upcoming-events-picture img{
+  width: 100%;
+  padding: 0px 50px 0px 50px;
+}
+.upcoming-events-text h2{
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.upcoming-events-text h4{
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+@media screen and (max-width:500px) {
+  .upcoming-events-picture img{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+  }
+
+}
+/* upcoming-events-section-end */
