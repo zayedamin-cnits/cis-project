@@ -2307,3 +2307,36 @@ background-color: #f0efef;
   background-color: #474646;
 }
 /* drop-your-resume-section-end */
+
+/* vacancy-announcements-section-start */
+
+
+#nav-vacancy-announcements{
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+
+.vacancy-announcements {
+  padding: 100px;
+  background-color: #fff;
+}
+
+.vacancy-announcements-header h3 {
+  font-weight: 400;
+}
+
+.vacancy-announcements-text p {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 80px;
+  padding-left: 10px;
+ 
+}
+
+@media screen and (max-width:500px) {
+  .work-for {
+    padding: 10px;
+    background-color: #fff;
+  }
+}
+/* vacancy-announcements-section-end  */
