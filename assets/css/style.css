@@ -2278,3 +2278,32 @@ padding: 10px 10px 80px 10px;
   height: 70vh;
 }
 /* contact-us-section-end */
+
+/* drop-your-resume-section-start */
+.drop-your-header h3{
+  font-weight: 600;
+  font-size: 30px;
+}
+.drop-your-resume{
+  padding: 50px 0px 20px 0px;
+}
+.drop-your-info label{
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 400;
+}
+.drop-your-info input{
+  width: 100%;
+  padding: 12px;
+  border: none;
+background-color: #f0efef;
+}
+.drop-your-info .submit{
+  width: 120px;
+  color: #fff;
+  background-color: rgb(4, 116, 182);
+}
+.drop-your-info .submit:hover{
+  background-color: #474646;
+}
+/* drop-your-resume-section-end */
