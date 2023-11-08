@@ -518,10 +518,35 @@ position: relative;
 .gallary-img {
   width: 100%;
   margin-top: 25px;
+  position: relative;
 }
 
 .gallary-img img {
   width: 100%;
+  
+}
+
+.gallary-image-overlay{
+  display: flex;
+align-items: center; 
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.gallary-image-overlay h5{
+color: #fff;
+padding-left: 20px;
+
+}
+.gallary-img:hover .gallary-image-overlay {
+  opacity: 0.6;
+  
 }
 
 .gallary-button {
