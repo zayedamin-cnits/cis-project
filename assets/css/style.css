@@ -1378,7 +1378,80 @@ padding-left: 20px;
 
 /* partner-fotter-end */
 /* partners-section-end */
-/* we-work-for-section-start  */
+
+/* International Partners-section-start */
+#nav-International-Partners {
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+
+.International-Partners{
+  padding: 80px 100px 100px 100px;
+  background-color: #fff;
+}
+
+.International-Partners-header h3 {
+  font-weight: 400;
+}
+
+.work-for-text p {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.International-banar img{
+  width: 100%;
+}
+
+
+@media screen and (max-width:500px) {
+  .International-Partners {
+    padding: 10px;
+    background-color: #fff;
+  }
+}
+
+/* International Partners-section-end */
+
+/* national Partners-section-start */
+#nav-national-Partners {
+  padding: 60px 0px 120px 0px;
+  background-color: #e2dbdb;
+}
+
+.national-Partners{
+  padding: 80px 100px 100px 100px;
+  background-color: #fff;
+}
+
+.national-Partners-header h3 {
+  font-weight: 400;
+}
+
+.work-for-text p {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+.national-banar img{
+  width: 100%;
+}
+
+
+@media screen and (max-width:500px) {
+  .national-Partners {
+    padding: 10px;
+    background-color: #fff;
+  }
+}
+
+
+/* national Partners-section-end  */
+
+/* 
+we-work-for-section-start  */
 #we-work-for {
   padding: 60px 0px 120px 0px;
   background-color: #e2dbdb;
