@@ -1393,13 +1393,13 @@ padding-left: 20px;
 .International-Partners-header h3 {
   font-weight: 400;
 }
-
+/* 
 .work-for-text p {
   font-size: 15px;
   text-align: justify;
   margin-top: 20px;
   padding-left: 10px;
-}
+} */
 .International-banar img{
   width: 100%;
 }
@@ -1429,14 +1429,32 @@ padding-left: 20px;
   font-weight: 400;
 }
 
-.work-for-text p {
+/* .work-for-text p {
   font-size: 15px;
   text-align: justify;
   margin-top: 20px;
   padding-left: 10px;
-}
+} */
 .national-banar img{
   width: 100%;
+}
+
+.national-Partners-member h3{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.national-Partners-member h1{
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  color: red;
+}
+.national-Partners-member h4{
+  text-align: center;
+  color: red;
+  margin-top: -20px;
 }
 
 
