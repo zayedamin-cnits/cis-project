@@ -2615,3 +2615,37 @@ background-color: #f0efef;
   }
 }
 /* vacancy-announcements-section-end  */
+/* print-hero-section-start*/
+.about-hero {
+  background: url(../img/hero-img/Slider-cis-2-01-scaled.jpg);
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.about-hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  color: #fff;
+  position: relative;
+}
+
+/*  print-hero-section-end */
