@@ -8,7 +8,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+ --red:red;
+ --hover-bacground: rgb(175, 1, 1) ;
+ --background-color:  rgb(212, 0, 0);
+ --about-bacground: #cf2e2e;
 
+}
 /* nav-section-start */
 .navbar {
   background-color: rgb(212, 0, 0) !important;
@@ -26,7 +32,7 @@
 }
 
 .dropdown-menu {
-  background-color: rgb(212, 0, 0) !important;
+  background-color: var(--background-color) !important;
   border: 1px solid #fff !important;
 }
 
@@ -39,12 +45,12 @@
 }
 
 .dropdown-item:hover {
-  background-color: rgb(175, 1, 1) !important;
+  background-color: var(--hover-bacground) !important;
 }
 
 @media screen and (max-width: 500px) {
   .dropdown-menu {
-    background-color: rgb(212, 0, 0) !important;
+    background-color: var(--hover-bacground) !important;
     border: none !important;
   }
 }
@@ -143,7 +149,14 @@
 #hero img {
   height: 80vh;
   object-fit: cover;
+ 
 }
+.carousel-caption h2{
+padding: 0px;
+float: right;
+
+}
+
 
 @media screen and (max-width:550px) {
   #hero img {
@@ -156,7 +169,7 @@
 
 /* about-section-start */
 #about-us {
-  background-color: #cf2e2e;
+  background-color: var(--about-bacground);
   color: #fff;
 }
 
@@ -168,7 +181,7 @@
 .about a {
   width: 100px;
   box-shadow: 0px 8px 10px 0px rgba(198.75, 3.456521739130437, 3.456521739130437, 0.5);
-  background-color: red;
+  background-color: var(--red);
   font-size: 12px;
 }
 
@@ -187,7 +200,7 @@
 .about-video a {
   width: 100px;
   box-shadow: 0px 8px 10px 0px rgba(198.75, 3.456521739130437, 3.456521739130437, 0.5);
-  background-color: red;
+  background-color: var(--red);
   font-size: 12px;
 }
 
@@ -202,7 +215,7 @@
   padding: 2px;
   width: 110px;
   margin: auto;
-  background-color: red;
+  background-color: var(--red);
   border-radius: 20px;
 }
 
@@ -328,12 +341,12 @@ position: relative;
   text-decoration: none;
   margin-top: 10px;
   display: block;
-  color: red;
+  color: var(--red);
   font-weight: 500;
 }
 
 .img-area a:hover {
-  color: red;
+  color: var(--red);
 }
 
 .img-area .read {
@@ -361,7 +374,7 @@ position: relative;
 }
 
 .owl-dot.active {
-  background-color: red !important;
+  background-color: var(--red) !important;
 }
 
 @media screen and (max-width: 990px) {
@@ -424,7 +437,7 @@ position: relative;
 }
 
 .owl-dot.active {
-  background-color: red !important;
+  background-color: var(--red) !important;
 }
 
 @media screen and (max-width: 990px) {
@@ -556,7 +569,7 @@ position: relative;
 }
 
 .owl-dot.active {
-  background-color: red !important;
+  background-color: var(--red)!important;
 }
 
 @media screen and (max-width: 990px) {
@@ -636,7 +649,13 @@ padding-left: 20px;
   opacity: 0.6;
   
 }
-
+.nav-pills a{
+ background-color: red !important;  
+}
+.nav-pills .nav-item .active{
+  color: #fff !important;
+  background-color: black !important;
+}
 .gallary-button {
   width: 120px;
   margin: auto;
@@ -645,7 +664,7 @@ padding-left: 20px;
 }
 
 .gallary-button a {
-  background-color: red;
+  background-color: var(--red);
   width: 120px;
   margin: auto;
   padding: 10px 20px;
@@ -865,7 +884,7 @@ padding-left: 20px;
 #copyright {
   width: 100%;
   padding: 10px;
-  background-color: red;
+  background-color: var(--red);
   color: #fff;
 }
 
@@ -1171,7 +1190,7 @@ padding-left: 20px;
 
 .international {
   padding: 50px 0px;
-  border: 3px solid red;
+  border: 3px solid var(--red);
 }
 
 .international-logo {
@@ -1197,12 +1216,12 @@ padding-left: 20px;
 
 .national {
   padding: 50px 0px;
-  border: 3px solid red;
+  border: 3px solid var(--red);
 }
 
 .national-logo {
   padding: 20px;
-  background-color: red;
+  background-color: var(--red);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1230,7 +1249,7 @@ padding-left: 20px;
 .partner-society p {
   text-align: center;
   font-size: 14px;
-  color: red;
+  color: var(--red);
 }
 
 .partner-facebook {
@@ -1263,7 +1282,7 @@ padding-left: 20px;
   display: block;
   text-align: center;
   text-decoration: none;
-  color: red;
+  color: var(--red);
   margin-top: 10px;
   font-size: 14px;
 }
