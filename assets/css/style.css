@@ -620,11 +620,13 @@ position: relative;
   width: 100%;
   margin-top: 25px;
   position: relative;
+  height: 300px;
 }
 
 .gallary-img img {
   width: 100%;
-  
+  object-fit: cover;
+  height: 300px;
 }
 
 .gallary-image-overlay{
