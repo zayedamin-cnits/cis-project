@@ -1290,7 +1290,7 @@ padding-left: 20px;
 }
 
 .partner-links a:hover {
-  color: black;
+  color: #fff !important;
 }
 
 .latest-header h1 {
@@ -1310,7 +1310,9 @@ padding-left: 20px;
 .partner-updeat-text {
   margin-left: -95px !important;
 }
-
+.partner-updeat-text a:hover{
+  color: #fff !important;
+}
 .partner-updeat-text a {
   text-decoration: none;
   color: red;
@@ -1344,7 +1346,9 @@ padding-left: 20px;
   color: red;
   font-size: 14px;
 }
-
+.partner-namber a:hover{
+color: #fff;
+}
 .gmail {
   display: flex;
   margin: auto;
@@ -1363,7 +1367,9 @@ padding-left: 20px;
   color: red;
   font-size: 14px;
 }
-
+.partner-cis-mail a:hover{
+  color: #fff ;
+}
 .area {
   display: flex;
   margin: auto;
@@ -1383,7 +1389,9 @@ padding-left: 20px;
   color: red;
   font-size: 14px;
 }
-
+.partner-area-name a:hover{
+  color: #fff ;
+}
 .partner-subscribe h1 {
   text-align: center;
   color: red;
