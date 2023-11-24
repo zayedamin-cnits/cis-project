@@ -140,12 +140,6 @@ html{
     transform-origin: left;
 }
 
-
-
-
-
-
-
 /* nav-section-end */
 
 /* hero- section-start */
@@ -154,12 +148,6 @@ html{
   object-fit: cover;
  
 }
-.carousel-caption h2{
-padding: 0px;
-float: right;
-
-}
-
 
 @media screen and (max-width:550px) {
   #hero img {
@@ -2279,6 +2267,9 @@ width: 90%;
 }
 
 /*  print-media-hero-section-end */
+#nav-print-media{
+  padding: 0px 0px 100px 0px;
+}
 .print-media-news{
   margin-top: 20px;
 }
